@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Four Temperament Test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <form id="quiz-form">
+    <form id="quiz-form" class=main-div>
         <div id="quiz" class="section">
             <h1>Four Temperament Test</h1>
 
@@ -28,8 +31,9 @@
                     <input type="radio" id="four" name="choice" value=3><label></label>
                 </div>
                 <button type="submit" id="next">Next</button>
-                <div class="error-message">you need to select an option</div>
-                <div id="display"></div>
+                <div class="error-message hide">you need to select an option</div>
+                <button id="show-results" class="hide">View Results</button>
+                
             </div>
         </div>
     </form>

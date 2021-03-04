@@ -1,0 +1,74 @@
+html, body {
+	margin: 0;
+	padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #789561;
+}
+.main-div {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E5CAAF;
+    padding: 2%;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    /* background-color: #A1B984; */
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+.option {
+    text-align: left;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+/* for accordion */
+.accordion {
+    background-color: #CFD7C0;
+    color: navy;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.4s;
+    float: right;
+    
+  }
+  .accordion::after {
+    content: "\2bc6"; /*down triangle*/
+    float: right;
+  }
+
+  .active::after {
+    content: "\2bc5"; /*up triangle*/
+  }
+  
+  .active, .accordion:hover {
+    background-color: #76ADA8;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .video {
+      padding: 10px;
+      text-align: center;
+  }
