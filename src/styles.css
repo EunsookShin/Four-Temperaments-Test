@@ -6,6 +6,7 @@ html, body {
 }
 .main-div {
     width: 50%;
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
     background-color: #E5CAAF;

@@ -147,7 +147,7 @@ nextBtn.onsubmit = function (event) {
 let resultsBtn = document.querySelector("#show-results")
 resultsBtn.onclick = function(event) {
     event.preventDefault();
-    window.location.href = "results.html?sang=" + sangCount + 
+    window.location.href = "src/results.html?sang=" + sangCount + 
                                                 "&chol=" + cholCount +
                                                 "&mel=" + melCount +
                                                 "&phleg=" + phlegCount
