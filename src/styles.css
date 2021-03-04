@@ -6,7 +6,7 @@ html, body {
 }
 .main-div {
     width: 50%;
-    min-width: 500px;
+    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
     background-color: #E5CAAF;
@@ -16,7 +16,6 @@ h1 {
     text-align: center;
 }
 .container {
-    /* background-color: #A1B984; */
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
@@ -72,4 +71,29 @@ h1 {
   .video {
       padding: 10px;
       text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .main-div {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #E5CAAF;
+      padding: 1%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .container {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+        text-align: center;
+        padding: 2%;
+    }
+  }
+  @media (max-width: 992px) {
+    
+    }
   }
